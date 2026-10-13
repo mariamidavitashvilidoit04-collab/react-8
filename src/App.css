@@ -1,0 +1,55 @@
+@import "tailwindcss";
+.app {
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 0 16px;
+  text-align: center;
+}
+.search {
+  display: flex;
+  gap: 8px;
+}
+.search input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+.search button {
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 6px;
+  background: #112dff;
+  color: #fff;
+  cursor: pointer;
+}
+.search button:disabled {
+  background: #b5b5b5;
+}
+.error {
+  color: #c62828;
+}
+.main {
+  margin: 36px 0;
+}
+.temp {
+  font-size: 64px;
+  margin: 0;
+}
+.desc {
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
